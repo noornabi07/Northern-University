@@ -1,8 +1,13 @@
-# React + Vite
+1. Northern University Task
+2. Created by Md Noornabi Islam
+3. Live Site: https://northern-versity.web.app
+4. Date: 18-02-2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* ----------------------------
+* Technology Usings:
+1. React + Vite
+2. Tailwind for Styles
+3. DaisyUi
+4. Firebase for hosting
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* --------------- Thank you so much -----------------------
