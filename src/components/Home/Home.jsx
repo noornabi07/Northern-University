@@ -8,6 +8,7 @@ import Major from '../Major/Major';
 import Builder from '../Builder/Builder';
 import Services from '../Services/Services';
 import Header from '../Header/Header';
+import Features from '../Features/Features';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Builder></Builder>
             <Services></Services>
             <Header></Header>
+            <Features></Features>
         </div>
     );
 };
