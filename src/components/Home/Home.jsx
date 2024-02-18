@@ -6,6 +6,8 @@ import InnerPage from '../InnerPage/InnerPage';
 import Plugin from '../Plugin/Plugin';
 import Major from '../Major/Major';
 import Builder from '../Builder/Builder';
+import Services from '../Services/Services';
+import Header from '../Header/Header';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
             <Plugin></Plugin>
             <Major></Major>
             <Builder></Builder>
+            <Services></Services>
+            <Header></Header>
         </div>
     );
 };
