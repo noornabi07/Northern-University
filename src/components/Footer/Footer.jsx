@@ -4,7 +4,7 @@ import Container from "../Container/Container";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer grid-rows-2 p-10 bg-neutral justify-evenly text-neutral-content">
+      <footer className="footer grid-rows-2  p-10 bg-neutral justify-evenly text-neutral-content">
         <nav>
           <h6 className="footer-title">Services</h6>
           <a className="link link-hover">Branding</a>

@@ -11,8 +11,8 @@ const Featured = () => {
 
       <div>
         {/* featured1 */}
-        <div className="flex justify-center items-center gap-20 mx-40">
-          <div className="w-1/2">
+        <div className="md:flex justify-center items-center gap-20 md:mx-40">
+          <div className="md:w-1/2 md:text-center">
             <h2 className="text-4xl font-bold">Campuses & Vision</h2>
             <p className="text-xl mt-7  text-gray-500">
               The university aspires to be a leading educational institution in
@@ -27,18 +27,18 @@ const Featured = () => {
               directly.
             </p>
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2 mx-auto">
             <img src={featur1} className="w-full" alt="" />
           </div>
         </div>
 
         {/* featured2 */}
-        <div className="flex justify-center items-center gap-20 mx-40">
-          <div className="w-1/2">
+        <div className="md:flex justify-center items-center gap-20 md:mx-40">
+          <div className="md:w-1/2 md:text-center">
             <img src={featur2} className="w-full" alt="" />
           </div>
 
-          <div className="w-1/2">
+          <div className="md:w-1/2 mx-auto text-center">
             <h2 className="text-4xl font-bold">Quizzes and Questions</h2>
             <p className="text-xl mt-7  text-gray-500">
               Easily evaluate students via Quizzed and Questions. Kingster comes
@@ -49,8 +49,8 @@ const Featured = () => {
         </div>
 
         {/* featured3 */}
-        <div className="flex justify-center items-center gap-20 mx-40">
-          <div className="w-1/2">
+        <div className="md:flex justify-center items-center gap-20 md:mx-40">
+          <div className="md:w-1/2 mx-auto text-center">
             <h2 className="text-4xl font-bold">Perfect Design</h2>
             <p className="text-xl mt-7  text-gray-500">
               LMS backend comes with sleek, modern and minimal design. The
@@ -60,7 +60,7 @@ const Featured = () => {
             </p>
           </div>
 
-          <div className="w-1/2">
+          <div className="md:w-1/2 mx-auto">
             <img src={featur3} className="w-full" alt="" />
           </div>
         </div>

@@ -16,15 +16,15 @@ const Major = () => {
         <div className="hero-overlay bg-opacity-70"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="">
-            <h1 className="mb-5 text-5xl font-bold">
+            <h1 className="mb-5 text-3xl md:text-5xl font-bold">
               Compatible With Major Plugins
             </h1>
-            <p className="mb-5 font-bold text-xl">
+            <p className="mb-5 font-bold text-lg md:text-xl">
               Northern University is great better then others UNV
             </p>
 
             {/* major category */}
-            <div className="flex flex-row justify-center items-center gap-10 mt-12">
+            <div className="md:flex flex-row justify-center items-center gap-10 mt-12">
               <div className="flex items-center gap-5">
                 <img src={major1} alt="" />
                 <span className="text-2xl font-bold">Yoast SEO</span>

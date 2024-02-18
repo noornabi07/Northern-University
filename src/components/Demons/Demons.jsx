@@ -52,16 +52,17 @@ const Demons = () => {
 
       {/* LMS Demo */}
 
-      <div className="grid grid-cols-4 gap-8 mt-20 justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-20 justify-center items-center">
         <div></div>
         <div className="text-center hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo1} className="shadow-xl" alt="" />
+          <img src={demo1} className="shadow-xl mx-auto
+          " alt="" />
           <p className="text-2xl font-semibold mt-5 text-blue-600">
             Online School
           </p>
         </div>
         <div className="text-center hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo2} className="shadow-xl" alt="" />
+          <img src={demo2} className="shadow-xl mx-auto" alt="" />
           <p className="text-2xl font-semibold mt-5 text-blue-600">
             Online Academy
           </p>
@@ -75,22 +76,22 @@ const Demons = () => {
           Standard Admission
         </h1>
       </div>
-      <div className="flex flex-grow justify-center mt-10 items-center gap-8">
+      <div className="md:flex flex-grow justify-center mt-10 items-center gap-8">
         <div></div>
-        <div className="text-center w-1/4 hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo3} className="shadow-xl" alt="" />
+        <div className="text-center md:w-1/4 hover:scale-105 hover:duration-300 cursor-pointer">
+          <img src={demo3} className="shadow-xl mx-auto" alt="" />
           <p className="text-2xl font-semibold mt-5 text-blue-600">
             University Basic
           </p>
         </div>
-        <div className="text-center w-1/4 hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo4} className="shadow-xl" alt="" />
+        <div className="text-center md:w-1/4 hover:scale-105 hover:duration-300 cursor-pointer">
+          <img src={demo4} className="shadow-xl mx-auto" alt="" />
           <p className="text-2xl font-semibold mt-5  text-blue-600">
             University Standard
           </p>
         </div>
-        <div className="text-center w-1/4 hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo5} className="shadow-xl" alt="" />
+        <div className="text-center md:w-1/4 hover:scale-105 hover:duration-300 cursor-pointer">
+          <img src={demo5} className="shadow-xl mx-auto" alt="" />
           <p className="text-2xl font-semibold mt-5 text-blue-600">
             University Premium
           </p>
@@ -99,16 +100,16 @@ const Demons = () => {
       </div>
 
       {/* High School */}
-      <div className="grid grid-cols-4 gap-8 mt-20 justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-20 justify-center items-center">
         <div></div>
         <div className="text-center hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo6} className="shadow-xl" alt="" />
+          <img src={demo6} className="shadow-xl mx-auto" alt="" />
           <p className="text-2xl font-semibold mt-5 text-blue-600">
             High School
           </p>
         </div>
         <div className="text-center hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo7} className="shadow-xl" alt="" />
+          <img src={demo7} className="shadow-xl mx-auto" alt="" />
           <p className="text-2xl font-semibold mt-5 text-blue-600">
             Kindergarten
           </p>

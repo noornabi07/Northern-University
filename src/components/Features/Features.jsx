@@ -24,16 +24,16 @@ const Features = () => {
       <div className="my-20">
         <h2 className="text-center font-bold text-5xl">Core Features</h2>
 
-        <div className="mt-10 grid lg:grid-cols-5 justify-center gap-16 mx-20 md:mx-40 lg:mx-96">
+        <div className="mt-10 grid grid-cols-2 md:grid-cols-3  lg:grid-cols-3 xl:grid-cols-5 justify-center gap-16  mx-5 md:mx-10 lg:mx-40 xl:mx-96">
           <div className="text-center">
             <FaMobileAlt className="text-5xl font-bold text-gray-600 mx-auto"></FaMobileAlt>
-            <p className="text-lg font-bold mt-3 text-gray-600">
+            <p className="text-sm md:text-lg font-bold mt-3 text-gray-600">
               Fully Responsive
             </p>
           </div>
           <div className="text-center">
             <GrUpdate className="text-5xl font-bold mx-auto text-gray-600"></GrUpdate>
-            <p className="text-lg font-bold mt-3 text-gray-600">
+            <p className="text-sm md:text-lg font-bold mt-3 text-gray-600">
               Automatic Updates
             </p>
           </div>

@@ -6,8 +6,8 @@ import open from '../../assets/open.png'
 const Builder = () => {
   return (
     <Container>
-      <div className="flex justify-center gap-20 items-center">
-        <div className="w-1/2 text-center">
+      <div className="md:flex justify-center text-center md:gap-20 items-center">
+        <div className="w-1/2 mx-auto text-center">
           <h2 className="text-5xl font-bold font-serif">GoodLayers’ Page Builder</h2>
           <h4 className="text-2xl font-bold text-gray-400 mt-5 font-serif">Simply the most powerful content builder.</h4>
           <img src={open} className="w-20 my-16 mx-auto" alt="" />
