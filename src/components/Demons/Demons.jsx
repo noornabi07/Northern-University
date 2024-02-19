@@ -19,13 +19,13 @@ import marq13 from "../../assets/marq13.jpg";
 import marq14 from "../../assets/marq14.png";
 import marq15 from "../../assets/marq15.jpg";
 
-import demo1 from "../../assets/demos1.jpg";
-import demo2 from "../../assets/demos2.jpg";
-import demo3 from "../../assets/demos3.jpg";
-import demo4 from "../../assets/demos4.jpg";
-import demo5 from "../../assets/demos5.jpg";
-import demo6 from "../../assets/demos6.jpg";
-import demo7 from "../../assets/demos7.jpg";
+import demo1 from "../../assets/demo1.jpg";
+import demo2 from "../../assets/demo2.jpg";
+import demo3 from "../../assets/demo3.jpg";
+import demo4 from "../../assets/demo4.jpg";
+import demo5 from "../../assets/demo5.jpg";
+import demo6 from "../../assets/demo6.jpg";
+import demo7 from "../../assets/demo7.jpg";
 
 const Demons = () => {
   return (
@@ -52,18 +52,32 @@ const Demons = () => {
 
       {/* LMS Demo */}
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-20 justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-20 justify-center items-center">
         <div></div>
-        <div className="text-center hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo1} className="shadow-xl mx-auto
-          " alt="" />
-          <p className="text-2xl font-semibold mt-5 text-blue-600">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-easing="linear"
+          className="text-center hover:scale-105 hover:duration-300 cursor-pointer shadow-lg rounded-md p-4 shadow-slate-500"
+        >
+          <img
+            src={demo1}
+            className="shadow-xl mx-auto rounded-xl
+          "
+            alt=""
+          />
+          <p className="text-2xl font-semibold mt-5 text-gray-600">
             Online School
           </p>
         </div>
-        <div className="text-center hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo2} className="shadow-xl mx-auto" alt="" />
-          <p className="text-2xl font-semibold mt-5 text-blue-600">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-easing="linear"
+          className="text-center hover:scale-105 hover:duration-300 cursor-pointer shadow-lg rounded-md p-4 shadow-slate-500"
+        >
+          <img src={demo2} className="shadow-xl mx-auto rounded-2xl" alt="" />
+          <p className="text-2xl font-semibold mt-5 text-gray-600">
             Online Academy
           </p>
         </div>
@@ -71,28 +85,39 @@ const Demons = () => {
       </div>
 
       {/* Standard Demo */}
-      <div>
-        <h1 className="text-center text-4xl font-bold mt-20">
-          Standard Admission
-        </h1>
-      </div>
-      <div className="md:flex flex-grow justify-center mt-10 items-center gap-8">
+
+      <div className="md:flex flex-grow justify-center my-20 items-center gap-10">
         <div></div>
-        <div className="text-center md:w-1/4 hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo3} className="shadow-xl mx-auto" alt="" />
-          <p className="text-2xl font-semibold mt-5 text-blue-600">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-easing="linear"
+          className="text-center md:w-1/4 hover:scale-105 hover:duration-300 cursor-pointer shadow-lg rounded-md p-4 shadow-slate-500"
+        >
+          <img src={demo3} className="shadow-xl mx-auto rounded-xl" alt="" />
+          <p className="text-2xl font-semibold mt-5 text-gray-600">
             University Basic
           </p>
         </div>
-        <div className="text-center md:w-1/4 hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo4} className="shadow-xl mx-auto" alt="" />
-          <p className="text-2xl font-semibold mt-5  text-blue-600">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-easing="linear"
+          className="text-center md:w-1/4 hover:scale-105 hover:duration-300 cursor-pointer shadow-lg rounded-md p-4 shadow-slate-500"
+        >
+          <img src={demo4} className="shadow-xl mx-auto rounded-xl" alt="" />
+          <p className="text-2xl font-semibold mt-5  text-gray-600">
             University Standard
           </p>
         </div>
-        <div className="text-center md:w-1/4 hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo5} className="shadow-xl mx-auto" alt="" />
-          <p className="text-2xl font-semibold mt-5 text-blue-600">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-easing="linear"
+          className="text-center md:w-1/4 hover:scale-105 hover:duration-300 cursor-pointer shadow-lg rounded-md p-4 shadow-slate-500"
+        >
+          <img src={demo5} className="shadow-xl mx-auto rounded-xl" alt="" />
+          <p className="text-2xl font-semibold mt-5 text-gray-600">
             University Premium
           </p>
         </div>
@@ -100,17 +125,27 @@ const Demons = () => {
       </div>
 
       {/* High School */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-20 justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-20 justify-center items-center">
         <div></div>
-        <div className="text-center hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo6} className="shadow-xl mx-auto" alt="" />
-          <p className="text-2xl font-semibold mt-5 text-blue-600">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-easing="linear"
+          className="text-center hover:scale-105 hover:duration-300 cursor-pointer shadow-lg rounded-md p-4 shadow-slate-500"
+        >
+          <img src={demo6} className="shadow-xl mx-auto rounded-xl" alt="" />
+          <p className="text-2xl font-semibold mt-5 text-gray-600">
             High School
           </p>
         </div>
-        <div className="text-center hover:scale-105 hover:duration-300 cursor-pointer">
-          <img src={demo7} className="shadow-xl mx-auto" alt="" />
-          <p className="text-2xl font-semibold mt-5 text-blue-600">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-easing="linear"
+          className="text-center hover:scale-105 hover:duration-300 cursor-pointer shadow-lg rounded-md p-4 shadow-slate-500"
+        >
+          <img src={demo7} className="shadow-xl mx-auto rounded-xl" alt="" />
+          <p className="text-2xl font-semibold mt-5 text-gray-600">
             Kindergarten
           </p>
         </div>

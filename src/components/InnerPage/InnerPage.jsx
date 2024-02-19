@@ -16,12 +16,17 @@ import inner14 from '../../assets/inner/inner14.jpg'
 import inner13 from '../../assets/inner/inner13.jpg'
 import inner12 from '../../assets/inner/inner12.jpg'
 
+import './InnerPage.css'
+
+
+
+
 const InnerPage = () => {
   return (
     <div className="bg-base-200 py-8">
       <div className="text-center my-10">
         <h2 className="text-4xl font-bold">
-          Pre built inner pages (Northern University)
+          Programs Of (Northern University)
         </h2>
         <p className="text-lg font-semibold text-gray-500 mt-5">
           Bangladesh has a prominent educational institution known as Northern
@@ -30,144 +35,63 @@ const InnerPage = () => {
       </div>
 
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  mx-28">
-          <div>
-            <img
-              src={inner1}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">About Us</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20  mx-28">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-easing="linear"
+            className="container"
+          >
+            <div className="image-container"></div>
+            <div className="text-content">
+              <h2 className="text-2xl font-bold font-serif">Admission</h2>
+              <p className="font-semibold mt-8 text-lg">
+                Apply for admission is a great way to get a job in the field of
+                web development. You can apply for admission by filling out the
+                application form. If you're accepted.
+              </p>
+            </div>
           </div>
-          <div>
-            <img
-              src={inner2}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">
-              Applying Page
-            </h3>
+
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="linear"
+            className="container"
+          >
+            <div className="image-container"></div>
+            <div className="text-content">
+              <h2 className="text-2xl font-bold font-serif">Academic</h2>
+              <p className="font-semibold mt-8 text-lg">
+                Academic is a great way to get a job in the field of web
+                development. You can apply for admission by filling out the
+              </p>
+            </div>
           </div>
-          <div>
-            <img
-              src={inner3}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">Alumni</h3>
-          </div>
-          <div>
-            <img
-              src={inner4}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">Athletics</h3>
-          </div>
-          <div>
-            <img
-              src={inner10}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">Campus Tour</h3>
-          </div>
-          <div>
-            <img
-              src={inner11}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">Curriculum</h3>
-          </div>
-          <div>
-            <img
-              src={inner16}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">Faculty</h3>
-          </div>
-          <div>
-            <img
-              src={inner5}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">
-              Single Instructor
-            </h3>
-          </div>
-          <div>
-            <img
-              src={inner6}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">
-              Donation Page
-            </h3>
-          </div>
-          <div>
-            <img
-              src={inner7}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">Department</h3>
-          </div>
-          <div>
-            <img
-              src={inner13}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">Major</h3>
-          </div>
-          <div>
-            <img
-              src={inner12}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">
-              University Life
-            </h3>
-          </div>
-          <div>
-            <img
-              src={inner14}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">Scholarships</h3>
-          </div>
-          <div>
-            <img
-              src={inner8}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">
-              Course Search
-            </h3>
-          </div>
-          <div>
-            <img
-              src={inner9}
-              className="w-full hover:scale-105 hover:duration-300 rounded-lg"
-              alt=""
-            />
-            <h3 className="text-xl text-center font-bold mt-8">
-              Single Course
-            </h3>
+
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-easing="linear"
+            className="container"
+          >
+            <div className="image-container"></div>
+            <div className="text-content">
+              <h2 className="text-2xl font-bold font-serif">Ceremony</h2>
+              <p className="font-semibold mt-8 text-lg">
+                Ceremony is a great way to get a job in the field of web
+                development. You can apply for admission by filling out the
+                apply for admission by filling
+              </p>
+            </div>
           </div>
         </div>
       </Container>
 
-      <div className='text-center mt-20'>
-        <button className='py-2 px-6 bg-green-600 font-semibold text-xl text-white text-center'>Admission Now</button>
+      <div className="text-center mt-20">
+        <button className="py-2 px-6 bg-green-600 font-semibold text-xl text-white text-center">
+          Admission Now
+        </button>
       </div>
     </div>
   );

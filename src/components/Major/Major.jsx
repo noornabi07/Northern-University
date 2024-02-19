@@ -15,9 +15,14 @@ const Major = () => {
       >
         <div className="hero-overlay bg-opacity-70"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="">
-            <h1 className="mb-5 text-3xl md:text-5xl font-bold">
-              Compatible With Major Plugins
+          <div>
+            <h1
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-easing="linear"
+              className="mb-5 text-5xl font-serif md:text-5xl font-bold"
+            >
+              Admission Open
             </h1>
             <p className="mb-5 font-bold text-lg md:text-xl">
               Northern University is great better then others UNV
@@ -27,19 +32,27 @@ const Major = () => {
             <div className="md:flex flex-row justify-center items-center gap-10 mt-12">
               <div className="flex items-center gap-5">
                 <img src={major1} alt="" />
-                <span className="text-2xl font-bold">Yoast SEO</span>
+                <span className="text-2xl font-bold">BBA </span>
               </div>
               <div className="flex items-center gap-5">
                 <img src={major2} alt="" />
-                <span className="text-2xl font-bold">All in One SEO</span>
+                <span className="text-2xl font-bold">CSE</span>
               </div>
               <div className="flex items-center gap-5">
                 <img src={major3} alt="" />
-                <span className="text-2xl font-bold">W3 Total Cache</span>
+                <span className="text-2xl font-bold">TEXTILE</span>
               </div>
               <div className="flex items-center gap-5">
                 <img src={major4} alt="" />
-                <span className="text-2xl font-bold">Contact Form 7</span>
+                <span className="text-2xl font-bold">PHARMACY</span>
+              </div>
+              <div className="flex items-center gap-5">
+                <img src={major2} alt="" />
+                <span className="text-2xl font-bold">ENGLISH</span>
+              </div>
+              <div className="flex items-center gap-5">
+                <img src={major4} alt="" />
+                <span className="text-2xl font-bold">BANGLA</span>
               </div>
             </div>
           </div>
